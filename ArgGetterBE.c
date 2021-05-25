@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main(int argc, char** argv) { // argc is arg count, argv is the arg variables
+int main(int argc, char** argv) { // argc is arg count, argv is the arg vector
     FILE *outfile=fopen("args.txt","w");
 
     for (int i = 0; i < argc; ++i) {
